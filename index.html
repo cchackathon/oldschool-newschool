@@ -2,14 +2,17 @@
 <html>
 
 <head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Old School New School Hackathon</title>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVnydAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
@@ -17,58 +20,191 @@
 </head>
 
 <body>
-<!-- 	<header class="mdc-toolbar">
-		<div class="mdc-toolbar__row">
-			<section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-				<span class="mdc-toolbar__title">Old School New School</span>
-			</section>
 
-			<section class="mdc-toolbar__section mdc-toolbar__section--align-end">
-				<nav id="navigation-tabs">
-					<a href="">About</a>
-					<a href="">Tracks</a>
-					<a href="">FAQ</a>
-				</nav>
-			</section>
-		</div>
-	</header> -->
+<div class="container-fluid">
 
-	<div class="container-fluid">
-		<div>
-			<div>
+<!-- BANNER -->
+		<div class="row parallax">
+<!-- 			<div>
 				<img src="img/hackathon_banner.png" style="width:100%">
+			</div> -->
+		</div>
+
+<!-- ABOUT -->
+		<div class="row row-striped">
+			
+			<div class="col">
+
+				<h3 id="section-header">About</h3>
+				<hr class="divider"></hr>
+
+				<div class="row">
+					<div class="col-md-2 col-sm-0"></div>
+					<div class="col-md-8 col-sm-12">	
+						<p>The Old School/New School Hackathon sponsored by the Georgia Tech College of Computing is a chance for you to put your skills to the test and make something new out of something old. This hackathon will have three tracks that you can follow, each focusing on a different decade. We'll provide the tools and tech, you bring the skills and creativity. Happy hacking!</p>
+					</div>
+					<div class="col-md-2 col-sm-0"></div>
+				</div>
+			
 			</div>
+
 		</div>
 
-		<div>
-			<h3 id="section-header">About</h3>
-			<hr class="divider"></hr>
-			<p>The Old School/New School Hackathon sponsored by the Georgia Tech College of Computing is a chance for you to put your skills to the test and make something new out of something old. This hackathon will have three tracks that you can follow, each focusing on a different decade. We'll provide the tools and tech, you bring the skills and creativity. Happy hacking!</p>
-		</div>
+<!-- TRACKS -->
+		<div class="row row-striped">
+			
+			<div class="col">
 
-		<div>
-			<h3 id="section-header">Tracks</h3>
-			<hr class="divider"></hr>
-			<h4 id="subsection">1980s</h4>
-			<p>The 1980s was really the birth of technology as we know it. The first personal computerrs, GPS, and Powerpoint were all born in the 1980s. For this hack, you'll modify one of the following technologies that was born in the 1980s. Filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler.</p>
-			<h4 id="subsection">1990s</h4>
-			<p>The 1980s was really the birth of technology as we know it. The first personal computerrs, GPS, and Powerpoint were all born in the 1980s. For this hack, you'll modify one of the following technologies that was born in the 1980s. Filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler.</p>
-			<h4 id="subsection">2000s</h4>
-			<p>The 1980s was really the birth of technology as we know it. The first personal computerrs, GPS, and Powerpoint were all born in the 1980s. For this hack, you'll modify one of the following technologies that was born in the 1980s. Filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler.</p>
+				<h3 id="section-header">Tracks</h3>
+				<hr class="divider"></hr>
+
+				<div class="row">
+					<div class="col-md-2 col-sm-0"></div>
+					<div class="col-md-8 col-sm-12">
+						<h4 id="subsection">1980s</h4>
+						<p>The personal computer experienced explosive growth in the 1980s, transitioning from a hobbyist's toy to a full-fledged consumer product. The IBM PC, launched in 1981, became the dominant computer for professional users. Commodore created the most popular home computers of both 8-bit and 16-bit generations. MSX standard was the dominant computer platform in Japan and in most parts of Asia. Apple superseded its Apple II and Lisa models by introducing the first Macintosh computer in 1984. It was the first commercially successful personal computer to use a graphical user interface (GUI) and mouse,[12] which started to become general features in computers after the middle of the decade.</p>
+						<h4 id="subsection">1990s</h4>
+						<p>The 1990s were a revolutionary decade for digital technology. Between 1990 and 1997, individual personal computer ownership in the US rose from 15 to 35%.[23] Cell phones of the early-1990s and earlier ones were very large, lacked extra features, and were used by only a few percent of the population of even the wealthiest nations. Only a few million people used online services in 1990, and the World Wide Web had only just been invented. The first web browser went online in 1993[24] and by 2001, more than 50% of some Western countries had Internet access, and more than 25% had cell phone access.</p>
+						<h4 id="subsection">2000s</h4>
+						<p>The World Trade Center on fire and the Statue of Liberty during the 9/11 attacks; the euro enters into European currency in 2002; a statue of Saddam Hussein being toppled during the Iraq War; U.S. troops heading toward an army helicopter during the War on Terror; social media through the Internet spreads across the world; a Chinese soldier gazes at the 2008 Summer Olympics commencing; an economic crisis, the largest since the Great Depression, hits the world in 2008; a tsunami from the Indian Ocean following an earthquake kills over 250,000 in 2004.</p>
+					</div>
+					<div class="col-md-2 col-sm-0"></div>
+				</div>
+
+			</div>
+
 		</div>	
 
-		<div>
-			<h3 id="section-header">Schedule</h3>
-			<hr class="divider"></hr>
-			<div>Schedule Text</div>
+<!-- SCHEDULE -->
+		<div class="row row-striped">
+			
+			<div class="col">
+			
+				<h3 id="section-header">Schedule</h3>
+				<hr class="divider"></hr>
+
+				<div class="row">
+					<div class="col-md-2 col-sm-0"></div>
+					<div class="col-md-8 col-sm-12">
+						<div class="container-fluid">
+							<div class="row row-striped">
+								<div class="col-3 col-sm-3">4:00 PM</div>
+								<div class="col-5 col-sm-5">Student Registration and Team Formation</div>
+								<div class="col-4 col-sm-4">Klaus Atrium</div>
+							</div>
+
+							<div class="row row-striped">
+								<div class="col-3 col-sm-3">4:00 PM</div>
+								<div class="col-5 col-sm-5">Student Registration and Team Formation</div>
+								<div class="col-4 col-sm-4">Klaus Atrium</div>
+							</div>
+
+							<div class="row row-striped">
+								<div class="col-3 col-sm-3">4:00 PM</div>
+								<div class="col-5 col-sm-5">Student Registration and Team Formation</div>
+								<div class="col-4 col-sm-4">Klaus Atrium</div>
+							</div>
+
+							<div class="row row-striped">
+								<div class="col-3 col-sm-3">4:00 PM</div>
+								<div class="col-5 col-sm-5">Student Registration and Team Formation</div>
+								<div class="col-4 col-sm-4">Klaus Atrium</div>
+							</div>
+
+							<div class="row row-striped">
+								<div class="col-3 col-sm-3">4:00 PM</div>
+								<div class="col-5 col-sm-5">Student Registration and Team Formation</div>
+								<div class="col-4 col-sm-4">Klaus Atrium</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-0"></div>
+				</div>
+
+			</div>
+
 		</div>
 
-		<div>
-			<h3 id="section-header">FAQ</h3>
-			<hr class="divider"></hr>
-			<div>FAQ Text</div>
+<!-- FAQ -->
+		<div class="row row-striped">
+			
+			<div class="col">
+				
+				<h3 id="section-header">FAQ</h3>
+				<hr class="divider"></hr>
+
+				<div class="row faq">
+					<div class="col-md-2 col-sm-0"></div>
+					<div class="col-md-8 col-sm-12">
+						<p>
+							<div class="question_answer">
+								<div class="question">What is a hackathon?</div>
+								<div class="answer">A hackathon is where you turn your ideas into real stuff!</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">Who can apply?</div>
+								<div class="answer">All College of Computing undergraduate and graduate students are welcome to attend.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What if I don't know how to code?</div>
+								<div class="answer">Experience isn't required! Hackathons are a place to learn, for anybody at any level. We'll even have alumni to assis and mentor you as you work on your project.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">Are there teams?</div>
+								<div class="answer">You can work in a team of up to four, but all applications have to be submitted on an individual basis. Teams will be checked when you submit your project.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What if I don't have an idea or a team?</div>
+								<div class="answer">Don't worry! There will be time to form teams after registration, and we will help you match with other hackers.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What should I bring?</div>
+								<div class="answer">All you need is a student ID, a laptop + charger, and your hacking spirit! We'll take care of the rest. Firearms, weapons, alcohol, illegal drugs, and power tools are not allowed. Smiles and high-fives are welcome.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What can I make?</div>
+								<div class="answer">Anything you want within the restrictions of theme of the hackathon.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What about hardware and tools?</div>
+								<div class="answer">Bring anything you like and just check it with us. We will also have some company sponsored API’s and datasets. We've also provided a list of free resources.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">Can I start work on my hack before the event?</div>
+								<div class="answer">No, All work on your hacks must be done during the 24 hour event. Ideas may be generated beforehand. The rule is strictly enforced at and the penalty for a project from before the event is disqualification. However, feel free to use any libraries or tools.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What does it cost?</div>
+								<div class="answer">The event is free, thanks so support from our sponsors!</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">What about food?</div>
+								<div class="answer">Check the schedule for times but yes, free food will be provided throughout the event. You just have to show your wristband from registration when you grab a plate.</div>
+							</div>
+
+							<div class="question_answer">
+								<div class="question">Will there be prizes?</div>
+								<div class="answer">Of course! There will be a grand prize for the Software Challenge and another grand prize for the Hardware/VR Challenges.</div>
+							</div>
+						</p>
+					</div>
+					<div class="col-md-2 col-sm-0"></div>
+				</div>
+			</div>
+		
 		</div>		
-	</div>
+	
+</div>
 
 </body>
 
