@@ -1,24 +1,33 @@
 .parallax { 
     /* The image used */
-    background-image: url("img/hackathon_banner.png");
+    background-image: url("img/banner-temp.png");
 
     /* Set a specific height */
-    height: 700px; 
+    height: 730px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .row-striped {
-	padding-top: 15px;
- 	padding-bottom: 10px;
+	padding-top: 30px;
+ 	padding-bottom: 50px;
 }
 
 .row-striped:nth-of-type(odd){
   background-color: #dcdcdc;
+}
+
+.table-striped {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.table-striped:nth-of-type(odd) {
+	background-color: #dcdcdc;
 }
 
 #section-header {
@@ -35,7 +44,7 @@
     text-align: center;
     max-width: 250px;
     margin: 10px auto 25px;
-    border-color: #843D89;
+    border-color: #ff5ca7;
 }
 
 #subsection {
