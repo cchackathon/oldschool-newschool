@@ -70,3 +70,7 @@ p {
 	font-size: 1rem;
 	text-decoration: bold;
 }
+
+.bgimg {
+    background-image: url('img/bg-4.jpg');
+}
