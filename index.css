@@ -20,7 +20,7 @@ a.nav-link {
 
 .row-striped {
 	padding-top: 30px;
- 	padding-bottom: 50px;
+ 	padding-bottom: 30px;
 }
 
 .row-striped:nth-of-type(odd){
